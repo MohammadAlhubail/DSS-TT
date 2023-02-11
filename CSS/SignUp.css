@@ -1,0 +1,105 @@
+html {
+  background-color: rgb(70, 70, 70);
+}
+
+.heading {
+  background-color: rgb(48, 44, 44);
+  position: fixed;
+  height: 90px;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 30px;
+  box-shadow: 0px 5px 5px rgb(39, 39, 39);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.DSS-TableTeniss-Heading {
+  color: white;
+  font-family: "Times New Roman", serif;
+  font-weight: bold;
+  text-align: center;
+  width: auto;
+  position: absolute;
+  top: 25%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: inline-block;
+}
+
+.logo-img {
+  width: 55px;
+  margin: 12px 30px;
+  transition: 0.3s;
+}
+
+.logo-img:hover {
+  opacity: 0.5;
+}
+
+.signup-box {
+  background-color: rgb(35, 35, 35);
+  border-radius: 10px;
+  width: 600px;
+  margin-top: 300px;
+  padding: 20px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.signup-text {
+  color: white;
+  text-align: center;
+  display: block;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 30px;
+  box-shadow: 0px 0px 5px rgb(39, 39, 39) inset;
+}
+
+.submit-button {
+  background-color: lightgray;
+  padding: 10px;
+  border-radius: 8px;
+  border-width: 1px;
+  border-style: solid;
+  border-color: black;
+  cursor: pointer;
+  transition: 0.3s;
+  display: block;
+  width: 100%;
+  text-align: center;
+  margin-top: 30px;
+  box-shadow: 0px 0px 5px rgb(39, 39, 39) inset;
+}
+
+.submit-button:hover {
+  opacity: 0.5;
+  background-color: lightgray;
+}
+
+.submit-button:active {
+  background-color: white;
+}
+
+.signup-input {
+  background-color: gray;
+  border-radius: 10px;
+  font-size: 30px;
+  padding: 5px;
+  border-radius: 8px;
+  border-width: 1px;
+  border-style: solid;
+  border-color: black;
+  box-shadow: 0px 0px 5px rgb(39, 39, 39) inset;
+}

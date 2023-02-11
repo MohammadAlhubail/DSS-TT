@@ -1,0 +1,87 @@
+html {
+  background-color: rgb(70, 70, 70);
+}
+
+table {
+  width: 80%;
+  margin: auto;
+  margin-top: 30px;
+  font-family: Arial, sans-serif;
+  border-collapse: collapse;
+}
+
+.heading {
+  background-color: rgb(48, 44, 44);
+  position: fixed;
+  height: 90px;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 30px;
+  box-shadow: 0px 5px 5px rgb(39, 39, 39);
+}
+
+.DSS-TableTeniss-Heading {
+  color: white;
+  font-family: "Times New Roman", serif;
+  font-weight: bold;
+  text-align: center;
+  width: auto;
+  position: absolute;
+  top: 25%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: inline-block;
+}
+
+.logo-img {
+  width: 55px;
+  margin: 12px 30px;
+  transition: 0.3s;
+}
+
+.logo-img:hover {
+  opacity: 0.5;
+}
+
+.leaderboard-head {
+  background-color: rgb(35, 35, 35);
+  padding-left: 25px;
+  padding-right: 25px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  margin-top: 50px;
+  margin-left: 60px;
+  margin-right: 60px;
+  box-shadow: 10px 5px 5px rgb(39, 39, 39);
+}
+
+.leaderboard-head-text {
+  color: white;
+  font-size: 50px;
+  text-align: center;
+}
+
+.table-box {
+  background-color: gray;
+  margin-left: 80px;
+  margin-right: 80px;
+  padding: 10px;
+  padding-bottom: 50px;
+  box-shadow: 0px 5px 5px rgb(39, 39, 39);
+}
+
+.table-row {
+  text-align: center;
+  padding: 10px;
+  font-size: 30px;
+  border: 3px solid #2d2d2d;
+  box-shadow: 0px 0px 5px rgb(39, 39, 39) inset;
+}
+
+td {
+  border: 3px solid #2d2d2d;
+  padding: 10px;
+  text-align: center;
+  box-shadow: 0px 0px 2px rgb(39, 39, 39) inset;
+}
