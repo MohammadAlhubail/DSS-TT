@@ -51,6 +51,7 @@ html {
   display: inline-block;
   margin-right: 20px;
   width: 100px;
+  box-shadow: 0px 5px 5px rgb(39, 39, 39);
 }
 
 .signup-button:hover {
@@ -68,6 +69,7 @@ html {
   padding-bottom: 30px;
   margin-left: 25%;
   display: inline-block;
+  box-shadow: 0px 5px 5px rgb(39, 39, 39);
 }
 .rules-text {
   color: white;

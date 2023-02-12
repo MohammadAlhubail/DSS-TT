@@ -30,6 +30,7 @@ form.addEventListener("submit", function (event) {
   localStorage.setItem("password", password);
 
   alert("Sign up successful!");
+
   let space = " ";
   console.log(name + space + email + space + password);
 });
