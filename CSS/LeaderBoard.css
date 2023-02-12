@@ -4,8 +4,7 @@ html {
 
 table {
   width: 80%;
-  margin: auto;
-  margin-top: 30px;
+  margin: 30px auto;
   font-family: Arial, sans-serif;
   border-collapse: collapse;
 }
@@ -17,7 +16,6 @@ table {
   top: 0;
   left: 0;
   right: 0;
-  bottom: 30px;
   box-shadow: 0px 5px 5px rgb(39, 39, 39);
 }
 
@@ -26,12 +24,10 @@ table {
   font-family: "Times New Roman", serif;
   font-weight: bold;
   text-align: center;
-  width: auto;
   position: absolute;
-  top: 25%;
+  top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  display: inline-block;
 }
 
 .logo-img {
@@ -46,29 +42,21 @@ table {
 
 .leaderboard-head {
   background-color: rgb(35, 35, 35);
-  padding-left: 25px;
-  padding-right: 25px;
-  padding-top: 8px;
-  padding-bottom: 8px;
-  margin-top: 50px;
-  margin-left: 60px;
-  margin-right: 60px;
+  padding: 8px 25px;
+  margin: 50px 60px;
   box-shadow: 10px 5px 5px rgb(39, 39, 39);
+  text-align: center;
 }
 
 .leaderboard-head-text {
   color: white;
   font-size: 50px;
-  text-align: center;
 }
 
 .table-box {
   background-color: gray;
-  margin-left: 80px;
-  margin-right: 80px;
-  margin-top: 20px;
+  margin: 20px 80px 50px 80px;
   padding: 10px;
-  padding-bottom: 50px;
   box-shadow: 0px 5px 5px rgb(39, 39, 39);
   display: flex;
   align-items: center;
