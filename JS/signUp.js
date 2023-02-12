@@ -25,12 +25,19 @@ form.addEventListener("submit", function (event) {
     return;
   }
 
-  localStorage.setItem("name", name);
-  localStorage.setItem("email", email);
-  localStorage.setItem("password", password);
+  // Check if the email already exists in localStorage
+  const existingUsers = JSON.parse(localStorage.getItem("users")) || [];
+  const existingUser = existingUsers.find((user) => user.email === email);
+
+  if (existingUser) {
+    alert(
+      "An account with this email already exists. Please use a different email."
+    );
+    return;
+  }
+
+  existingUsers.push({ name, email, password });
+  localStorage.setItem("users", JSON.stringify(existingUsers));
 
   alert("Sign up successful!");
-
-  let space = " ";
-  console.log(name + space + email + space + password);
 });

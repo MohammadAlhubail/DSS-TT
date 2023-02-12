@@ -43,7 +43,7 @@ html {
   background-color: rgb(35, 35, 35);
   border-radius: 10px;
   width: 50%;
-  margin-top: 400px;
+  margin-top: 300px;
   padding: 20px;
   text-align: center;
   display: flex;
@@ -70,15 +70,15 @@ html {
 .submit-button {
   background-color: lightgray;
   padding: 10px;
-  margin-top: 30px;
   border-radius: 8px;
   border-width: 1px;
   border-style: solid;
   border-color: black;
   cursor: pointer;
-  width: 75%;
-  box-shadow: 0px 0px 5px rgb(39, 39, 39) inset;
   transition: 0.3s;
+  width: 75%;
+  margin-top: 30px;
+  box-shadow: 0px 0px 5px rgb(39, 39, 39) inset;
 }
 
 .submit-button:hover {
@@ -115,7 +115,7 @@ html {
 }
 
 .login-text-link {
-  color: wheat;
+  color: white;
   text-decoration: none;
   transition: 0.5s;
 }
